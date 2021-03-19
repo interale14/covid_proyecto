@@ -1,6 +1,6 @@
 function Form({children}){
   return (
-    <form className="flex justify-center items-start px-4 border">
+    <form className="flex flex-row justify-center w-9/12 px-4 align-center my-7">
         {children}
     </form>
   );
